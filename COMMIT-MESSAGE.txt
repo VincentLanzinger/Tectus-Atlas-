@@ -1,4 +1,4 @@
-Mobile-Optimierung + UX-Polish
+Mobile-Optimierung + UX-Polish + Assets
 
 - Hamburger-Menü mit Drawer für mobile Navigation (≤960px)
 - Drei neue Breakpoints (1024/768/480) mit gestaffeltem vertikalen Rhythmus
@@ -8,6 +8,12 @@ Mobile-Optimierung + UX-Polish
 - Cookie-Banner: full-width Buttons, 44px Touch-Targets
 - Legal-Modal: scrollbare Tabs, fullscreen auf Mobile
 - Sticky-Nav mit Scroll-State (subtiler Shadow)
-- scroll-behavior smooth + scroll-padding-top für Anker-Navigation
-- :focus-visible Outlines für Tastaturnutzer
+- scroll-behavior smooth + scroll-padding-top fuer Anker-Navigation
+- :focus-visible Outlines fuer Tastaturnutzer
 - Print-Stylesheet versteckt Nav/Cookie/Tweaks
+
+Assets:
+- founder.png komprimiert (1.4 MB -> 156 KB)
+- Logos, Favicon und Markenzeichen hinzugefuegt
+- Initialen-Fallback (VL) falls Bild nicht laedt
+- Founder-Bio in zwei Zeilen statt einer langen Inline-Zeile
