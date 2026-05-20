@@ -1,0 +1,13 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Local server
+.cache/
+node_modules/
+
+# Deploy
+.vercel
