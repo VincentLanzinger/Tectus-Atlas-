@@ -1,0 +1,13 @@
+Mobile-Optimierung + UX-Polish
+
+- Hamburger-Menü mit Drawer für mobile Navigation (≤960px)
+- Drei neue Breakpoints (1024/768/480) mit gestaffeltem vertikalen Rhythmus
+- Dashboard-Tabelle horizontal scrollbar in Wrapper-Container
+- Hero-CTAs vollbreite Buttons auf Mobile, Hero-Meta ohne Trennpunkte
+- Asymmetrie/Pricing/Phasen/Founder-Cards mobile-optimiert
+- Cookie-Banner: full-width Buttons, 44px Touch-Targets
+- Legal-Modal: scrollbare Tabs, fullscreen auf Mobile
+- Sticky-Nav mit Scroll-State (subtiler Shadow)
+- scroll-behavior smooth + scroll-padding-top für Anker-Navigation
+- :focus-visible Outlines für Tastaturnutzer
+- Print-Stylesheet versteckt Nav/Cookie/Tweaks
