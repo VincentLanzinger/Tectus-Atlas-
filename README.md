@@ -1,6 +1,6 @@
 # Tectus Atlas
 
-**Enterprises don't know which AI tools their employees actually use.** Shadow AI — unsanctioned ChatGPT accounts, browser plugins, embedded copilots — quietly handles sensitive data outside of any compliance, security, or governance framework. The EU AI Act now puts hard obligations on top of a problem most organizations can't even see.
+**Enterprises don't know which AI tools their employees actually use.** Shadow AI - unsanctioned ChatGPT accounts, browser plugins, embedded copilots - quietly handles sensitive data outside of any compliance, security, or governance framework. The EU AI Act now puts hard obligations on top of a problem most organizations can't even see.
 
 ## What we're building
 
