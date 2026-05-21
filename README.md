@@ -1,56 +1,33 @@
-# Tectus Atlas — Website
+# Tectus Atlas
 
-Static marketing site. Discover. Govern. Lead.
+**Enterprises don't know which AI tools their employees actually use.** Shadow AI — unsanctioned ChatGPT accounts, browser plugins, embedded copilots — quietly handles sensitive data outside of any compliance, security, or governance framework. The EU AI Act now puts hard obligations on top of a problem most organizations can't even see.
 
-## Stack
+## What we're building
 
-- Plain HTML + CSS, no build step required
-- React + Babel (CDN) only for the in-page Tweaks panel
-- Inter (Google Fonts), JetBrains Mono (Google Fonts)
+Tectus Atlas is the governance layer for AI inside the enterprise: discover what's in use, classify the risk, enforce the policy, and prove it to auditors.
 
-## Files
+## Shadow AI Discovery — our first feature
 
-```
-.
-├── index.html          # main page (DE/EN, cookie banner, legal modal)
-├── homepage.css        # all styles
-├── tweaks-panel.jsx    # in-page tweaks controls (dev/preview only)
-└── assets/             # logo system + founder portrait
-```
+Automated detection of unauthorized and untracked AI tool usage across an organization.
 
-## Local preview
+- Automated discovery of AI tools in use — sanctioned and unsanctioned.
+- Mapping of tool usage to teams, departments, and data-handling contexts.
+- Surfacing of high-risk usage patterns and sensitive-data exposure.
+- An inventory CISOs, DPOs, and legal teams can act on directly.
 
-Any static server will do:
+## Roadmap
 
-```bash
-npx serve .
-# or
-python3 -m http.server 8000
-```
+- **AI Risk Classification** — per-tool risk scoring aligned with EU AI Act categories.
+- **Policy Enforcement Layer** — translating written AI policies into enforceable controls.
+- **Audit Trail** — defensible, time-stamped record of AI tool usage and exceptions.
+- **Vendor Assessment** — structured intake for new AI tools before they go live.
 
-Then open <http://localhost:8000>.
+## Built for
 
-## Deploy on Vercel
+- EU AI Act compliance programs
+- Enterprise IT and CISOs
+- HR and Legal teams owning AI policy
 
-1. Push this folder to GitHub (see below).
-2. <https://vercel.com> → **Add New Project** → import the repo.
-3. Framework Preset = **Other**, Build Command = *(empty)*, Output Directory = `.`
-4. Deploy. You get a `*.vercel.app` URL instantly.
-5. **Settings → Domains** → add `tectus-atlas.com`. Follow the DNS instructions at your registrar (A-Record + CNAME). HTTPS is automatic.
+## Partnerships
 
-## Pre-launch checklist
-
-Replace the placeholders (search for `[`) before going live:
-
-- [ ] Impressum: `[Straße Hausnummer]`, `[PLZ]`, `[X. Bezirk]`
-- [ ] Impressum: `[ATU00000000]` (UID), `[FN 000000 a]` (Firmenbuchnummer)
-- [ ] Impressum: `[Name der Versicherung]` (Berufshaftpflicht)
-- [ ] Datenschutz: `[Straße]`, `[PLZ Wien]`
-- [ ] Mailboxes operational: `hello@`, `privacy@`, `legal@`, `audit@`, `pilot@`
-- [ ] AVV PDF available on request via `legal@tectus-atlas.com`
-- [ ] Plausible Analytics self-hosted, snippet inserted before `</body>`
-- [ ] LinkedIn URL in footer
-
-## License
-
-© 2026 Tectus Atlas. All rights reserved.
+Pilots, design partners, and early conversations: [Get in touch](CONTACT_URL)
